@@ -4,7 +4,7 @@
   "main": "index.js",
   "scripts": {
     "textlint": "npx textlint article/**/**.md --fix",
-    "pandoc:00:01": "pandoc article/00/01.md -f markdown -t icml -s -o article/00/01.icml"
+    "pandoc:00:01": "pandoc article/00/0-1.md -f markdown -t icml -s -o article/00/0-1.icml"
   },
   "keywords": [],
   "author": "",

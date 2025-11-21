@@ -1,4 +1,4 @@
-# Lazy Blocks で WordPress ブロックを作ろう（仮）
+# Lazy Blocks でカスタムブロックを作ろう（仮）
 
 Lazy Blocks プラグインを使って、WordPress で利用できるブロックを作る方法を解説する書籍の執筆データ管理レポジトリです。
 

@@ -6,7 +6,8 @@
     "textlint": "npx textlint article/**/**.md --fix",
     "pandoc:00:01": "pandoc article/00/0-1.md -f markdown -t icml -s -o article/00/0-1.icml",
     "pandoc:00": "npm-run-all pandoc:00:* && npm run textlint",
-    "pandoc:01:01": "pandoc article/01/1-1.md -f markdown -t icml -s -o article/01/1-1.icml"
+    "pandoc:01:01": "pandoc article/01/1-1.md -f markdown -t icml -s -o article/01/1-1.icml",
+    "pandoc:01": "npm-run-all pandoc:01:* && npm run textlint"
   },
   "keywords": [],
   "author": "",
